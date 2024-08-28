@@ -1,20 +1,20 @@
 class Paddle {
-    constructor(x,y,paddleSpeed,w,h) {
-        this.position = createVector(x, y); 
+    constructor(x, y, paddleSpeed, w, h) {
+        this.position = createVector(x, y);
         this.speed = paddleSpeed;
         this.initialSpeed = paddleSpeed;
-        this.width = w; 
-        this.height = h; 
+        this.width = w;
+        this.height = h;
     }
 
-    displayPaddle(){
-        rect(this.position.x, this.position.y, this.width, this.height); 
+    displayPaddle() {
+        rect(this.position.x, this.position.y, this.width, this.height);
     }
 
-    updateMovement(upMovement, downMovement, maximumHeight){
+    updateMovement(upMovement, downMovement, maximumHeight) {
         if (keyIsDown(upMovement)) {
             this.position.y -= this.speed;
-            
+
         } else if (keyIsDown(downMovement)) {
             this.position.y += this.speed;
         }
