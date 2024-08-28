@@ -1,3 +1,3 @@
 # Pong-Online
 
-Start with the web sockets wit node.js.
+Finsh the score and game logic and start with the web sockets
