@@ -1,2 +1,2 @@
 # Pong-Online
-Start with the web sos
+Start with the web os
