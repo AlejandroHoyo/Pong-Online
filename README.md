@@ -1,2 +1,2 @@
 # Pong-Online
-Start with the web sockets
+Start with the web sos
