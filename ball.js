@@ -47,7 +47,7 @@ class Ball {
     }
 
     updateBallMovement() {
-        // Movement of the ball
+        // Movement of 
         this.position.add(this.velocity);
         // Check borders
         if (this.position.y > height - this.radio || this.position.y < 0 + this.radio) {
