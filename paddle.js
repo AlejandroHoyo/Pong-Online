@@ -20,7 +20,7 @@ class Paddle {
         }
         this.checkBorders(maximumHeight);
     }
-//adfaw
+//adsd
     checkBorders(maximumHeight) { 
 
         if (this.position.y < 0) {
