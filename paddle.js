@@ -21,7 +21,7 @@ class Paddle {
         this.checkBorders(maximumHeight);
     }
 
-    checkBorders(maximumHeight) { // It is better to check each case in a separate way 
+    checkBorders(maximumHeight) { 
 
         if (this.position.y < 0) {
             this.position.y = 0;
