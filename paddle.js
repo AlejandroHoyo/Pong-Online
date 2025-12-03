@@ -23,7 +23,6 @@ class Paddle {
 
     checkBorders(maximumHeight) { // It is better to check each case in a separate way 
 
-        // Stop movement if the paddle goes out of bo
         if (this.position.y < 0) {
             this.position.y = 0;
             this.speed = 0;
