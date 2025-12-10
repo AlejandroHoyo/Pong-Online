@@ -1,2 +1,2 @@
 # Pong-Online
-Start with t
+Start with a project related with pong online.
