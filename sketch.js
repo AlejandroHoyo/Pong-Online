@@ -43,7 +43,6 @@ function draw() {
     ball.rightPaddleCollision(paddlePlayer2.position.x, paddlePlayer2.position.y, paddlePlayer2.width, paddlePlayer2.height);
     ball.leftPaddleCollision(paddlePlayer1.position.x, paddlePlayer1.position.y, paddlePlayer1.width, paddlePlayer1.height);
 
-    // Restart 
     if (ball.position.x > width) {
       ballRestartBall();
       scorePlayer1++;
