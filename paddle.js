@@ -20,7 +20,7 @@ class Paddle {
         }
         this.checkBorders(maximumHeight);
     }
-//Checking the borders
+//Checking the borders to prevent the paddle from going off-screen
     checkBorders(maximumHeight) { 
 
         if (this.position.y < 0) {
