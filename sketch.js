@@ -53,7 +53,7 @@ function draw() {
 
     paddlePlayer1.updateMovement(UP_ARROW, DOWN_ARROW, height);
     paddlePlayer2.updateMovement(119, 115, height); //Key codes for 'w' and 's'"
-    paddlePlayer2.updateMovement(87, 83, height); //Key codes for 'W' and 'S'. It is the code for capital letters" 
+    paddlePlayer2.updateMovement(87, 83, height); //Key codes for 'W' and 'S'. It is the code for capital lettes" 
     paddlePlayer1.displayPaddle();
     paddlePlayer2.displayPaddle();
   }
